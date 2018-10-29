@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f11d6860d940d298f0bed6450d8e42c2",
+    "content-hash": "27fd4b3a08077dacf9b229ccb37baddd",
     "packages": [
         {
             "name": "clue/graph",
-            "version": "v0.9.0",
+            "version": "dev-speed_improvements_no_BBC",
             "source": {
                 "type": "git",
-                "url": "https://github.com/clue/graph.git",
-                "reference": "0336a4d5229fa61a20ccceaeab25e52ac9542700"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/clue/graph/zipball/0336a4d5229fa61a20ccceaeab25e52ac9542700",
-                "reference": "0336a4d5229fa61a20ccceaeab25e52ac9542700",
-                "shasum": ""
+                "url": "https://github.com/paulchyrilov/graph.git",
+                "reference": "2f69b736c1066a3819d96df2ea0b95d01be3e3ff"
             },
             "require": {
                 "php": ">=5.3.0"
@@ -36,7 +30,6 @@
                     "Fhaculty\\Graph\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -49,7 +42,7 @@
                 "network",
                 "vertex"
             ],
-            "time": "2015-03-07T18:11:31+00:00"
+            "time": "2018-10-29T15:21:17+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -169,24 +162,18 @@
         },
         {
             "name": "graphp/algorithms",
-            "version": "v0.8.1",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/graphp/algorithms.git",
-                "reference": "81db4049c35730767ec8f97fb5c4844234b86cef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/graphp/algorithms/zipball/81db4049c35730767ec8f97fb5c4844234b86cef",
-                "reference": "81db4049c35730767ec8f97fb5c4844234b86cef",
-                "shasum": ""
+                "url": "https://github.com/paulchyrilov/algorithms.git",
+                "reference": "9174a25742fcedf0a78fedd5a644509e17fc3bb4"
             },
             "require": {
-                "clue/graph": "~0.9.0|~0.8.0",
+                "clue/graph": "@dev",
                 "php": ">=5.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -194,7 +181,6 @@
                     "Graphp\\Algorithms\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -215,7 +201,7 @@
                 "prim",
                 "shortest path"
             ],
-            "time": "2015-03-08T10:12:01+00:00"
+            "time": "2018-10-29T15:32:36+00:00"
         },
         {
             "name": "illuminate/auth",
@@ -4166,7 +4152,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "clue/graph": 20,
+        "graphp/algorithms": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

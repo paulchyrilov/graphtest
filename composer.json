@@ -8,9 +8,19 @@
         "php": ">=7.1.3",
         "laravel/lumen-framework": "5.7.*",
         "vlucas/phpdotenv": "~2.2",
-        "clue/graph": "v0.9.0",
-        "graphp/algorithms": "0.8.1"
+        "clue/graph": "dev-speed_improvements_no_BBC",
+        "graphp/algorithms": "dev-dev"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/paulchyrilov/graph.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/paulchyrilov/algorithms.git"
+        }
+    ],
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "phpunit/phpunit": "~7.0",
