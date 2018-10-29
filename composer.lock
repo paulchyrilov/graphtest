@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/paulchyrilov/graph.git",
-                "reference": "2f69b736c1066a3819d96df2ea0b95d01be3e3ff"
+                "reference": "4e66623da93dae4463e90746a713dda8955e63bd"
             },
             "require": {
                 "php": ">=5.3.0"
@@ -42,7 +42,7 @@
                 "network",
                 "vertex"
             ],
-            "time": "2018-10-29T15:21:17+00:00"
+            "time": "2018-10-29T15:48:40+00:00"
         },
         {
             "name": "doctrine/inflector",
